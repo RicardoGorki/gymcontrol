@@ -52,3 +52,13 @@ npx prisma studio
 npm i bcryptjs
 	@types/bcryptjs -D
 	hashing senhas
+
+npm i vitest vite-tsconfig-paths @vitest/coverage-c8 -D
+	//vite-tsconfig-paths entender os paths @/
+
+	tests
+	package.json
+		"test": "vitest run", roda test uma vez
+    "test:watch": "vitest" monitora e roda qlquer alteração
+		"test:coverage": "vistest run --coverage" // relatorio de cobertura de tests
+		colocar courage gitignore
