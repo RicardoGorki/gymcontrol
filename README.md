@@ -53,7 +53,7 @@ npm i bcryptjs
 	@types/bcryptjs -D
 	hashing senhas
 
-npm i vitest vite-tsconfig-paths @vitest/coverage-c8 -D
+npm i vitest vite-tsconfig-paths @vitest/coverage-v8 -D
 	//vite-tsconfig-paths entender os paths @/
 
 	tests
